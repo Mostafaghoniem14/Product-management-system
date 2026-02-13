@@ -62,20 +62,7 @@ Through this project, I practiced:
 
 ## 🌍 Live Demo
 
-👉 Add your GitHub Pages link here after deployment
-
-Example:
-https://yourusername.github.io/product-management-system/
-
----
-
-## 📸 Preview
-
-(Add a screenshot later)
-
-![Project Preview](assets/screenshots/preview.png)
-
----
+https://github.com/Mostafaghoniem14/Product-management-system/
 
 ## 👨‍💻 Author
 
