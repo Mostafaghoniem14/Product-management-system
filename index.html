@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="home">
+    <h1 class="h1 text-center">PRODUCT MANAGEMENT SYSTEM</h1>
+    <h5 class="h5 text-muted text-center">Cruds Operations</h5>
+    <div class="Mainlist w-75 bg-danger p-5 my-4 m-auto">
+        <input type="text" class="form-control" id="pname" placeholder="Product name ">
+        <div id="alert" class="alert alert-danger d-none">
+            Invalid-Name
+        </div>
+        <br>
+        <input type="number" class="form-control" id="pprice" placeholder="Product price ">
+        <br id="labelcount">
+        <input type="number" class="form-control" id="pcount" placeholder="Product count ">
+        <br>
+        <input type="text" class="form-control" id="pcategory" placeholder="Product category ">
+        <br>
+        <textarea class="form-control" id="pdesc" placeholder="Product description"></textarea>
+        <div class="btn1 samehover"><button disabled id="btn" class="btn1 btn btn-warning w-75 my-3 ">Add Product</button></div>
+        <div class="clearfix"></div>
+        <div class="search d-flex justify-content-between">
+        <input type="search" id="search" class="searchinput form-control" placeholder="Search By Name">
+        <input type="search" id="searchbycategory" class="searchinput form-control" placeholder="Search By Category">
+        </div>
+        <div class="btn1 samehover"><button id="btndeleteall" class="btn1 btn btn-warning w-100 my-3 ">Delete All</button></div>
+        <table class="table text-center my-3">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th></th>
+                <th></th>
+                </tr>
+            </thead>
+            <tbody id="tbody" class="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    </div>
+    
+
+
+    <footer class="text-center text-muted py-3">
+    © 2026 Product Management System
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
